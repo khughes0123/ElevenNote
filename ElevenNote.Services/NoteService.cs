@@ -12,7 +12,7 @@ namespace ElevenNote.Services
     {
         private readonly Guid _userId;
 
-        private NoteService(Guid userId)
+        public NoteService(Guid userId)
         {
             _userId = userId;
         }
